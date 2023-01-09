@@ -55,7 +55,7 @@ body {
 .main-ms {
 padding-top: 10px;
 display: flex;
-align-items: center;
+align-items:center;
 justify-content: center; 
 }
 
@@ -64,7 +64,8 @@ justify-content: center;
   border-color: black;
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
+  text-align: center; 
   width: 100px;
   height: 50px;
   padding-right: 100px;
@@ -95,5 +96,16 @@ a {
   font-size: 20px;
 }
 
+.ms2 {
+  padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
 
-
+.back {
+position: relative;
+right: 465px;
+}
