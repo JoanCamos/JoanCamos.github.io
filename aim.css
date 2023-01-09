@@ -1,0 +1,236 @@
+
+#title {
+  color: #ffffff
+}
+
+p:hover {
+  background-image: linear-gradient(to top, #1d6ea8 0%, #1d6ea8 0 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+p {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+body {
+  cursor: context-menu;
+  margin: 0;
+  color: #fff;
+  font-family: 'Verdana', sans-serif;
+  overflow: hidden;
+}
+
+
+.back {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Verdana', sans-serif;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  /* TO MOVE STUFF AROUND */
+  position: relative;
+  top: 100px;
+}
+
+.back:hover {
+  background-image: linear-gradient(to top, #1d6ea8 0%, #1d6ea8 100%);
+  /* to make the bg image just the text not the bg */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.home {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Verdana', sans-serif;
+  position: relative;
+  top: 100px;
+}
+
+.home:hover {
+  background-image: linear-gradient(to top, #1d6ea8 0%, #1d6ea8 100%);
+  /* to make the bg image just the text not the bg */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+h2 {
+  font-size: 65px;
+  background-image: linear-gradient(to top, #ffffff 0%, #ffffff 100%);
+  /* to make the bg image just the text not the bg */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.cover.up {
+  margin-top: -100vh;
+}
+
+.cover.up2 {
+  margin-top: -400vh;
+}
+
+.cover {
+  height: 100vh;
+  background: #232427;
+  justify-content: center;
+  transition: margin 0.5s ease-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date-table {
+  list-style: none;
+  display: flex;
+}
+
+.date-table li {
+  margin: 5px;
+}
+
+.date-table2 {
+  list-style: none;
+  display: flex;
+}
+
+.date-table2 li {
+  margin: 5px;
+}
+
+.date-button {
+  border: 3px solid #fff;
+  padding: .5rem 10px;
+  font-size: 25px;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.date-button:hover {
+  border: 3px solid #1d6ea8;
+  background-image: linear-gradient(to top, #1d6ea8 0%, #1d6ea8 100%);
+  /* to make the bg image just the text not the bg */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+}
+
+.date-button2 {
+  border: 3px solid #fff;
+  padding: .5rem 10px;
+  font-size: 25px;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.date-button2:hover {
+  border: 3px solid #1d6ea8;
+  background-image: linear-gradient(to top, #1d6ea8 0%, #1d6ea8 100%);
+  /* to make the bg image just the text not the bg */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+}
+
+
+.panel {
+  height: 500px;
+  width: 1300px;
+  background: linear-gradient(118.38deg, #29323C -4.6%, #485563 200.44%);
+  box-shadow: -8px -8px 20px #2A333D, 10px 7px 20px #475462;
+  border-radius: 30px;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.panel2 {
+
+  height: 700px;
+  width: 1600px;
+  background: linear-gradient(118.38deg, #29323C -4.6%, #485563 200.44%);
+  box-shadow: -8px -8px 20px #2A333D, 10px 7px 20px #475462;
+  border-radius: 30px;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+
+}
+
+.circle {
+  border-radius: 50%;
+  cursor: pointer;
+  background: linear-gradient(to top, #BE5A04 0%, #ff7700 100%);
+  position: absolute;
+}
+
+.circle2 {
+  border-radius: 50%;
+  cursor: pointer;
+  background: linear-gradient(to top, rgb(31, 255, 10) 0%, rgb(0, 255, 64) 100%);
+  position: absolute;
+}
+
+.circle3 {
+  border-radius: 50%;
+  cursor: pointer;
+  background: linear-gradient(to top, rgb(255, 0, 212) 0%, rgb(255, 0, 140) 100%);
+  position: absolute;
+}
+
+h1 {
+  font-size: 20px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.try {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Verdana', sans-serif;
+  text-decoration: none;
+  position: relative;
+  bottom: -15px;
+
+}
+
+.try:hover {
+  background-image: linear-gradient(to top, #1d6ea8 0%, #1d6ea8 100%);
+  /* to make the bg image just the text not the bg */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.try2 {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Verdana', sans-serif;
+  text-decoration: none;
+  position: relative;
+  bottom: -15px;
+}
+
+.try2:hover {
+  background-image: linear-gradient(to top, #1d6ea8 0%, #1d6ea8 100%);
+  /* to make the bg image just the text not the bg */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}

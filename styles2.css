@@ -1,0 +1,81 @@
+.Contact-Title {
+    color: #ffffff;
+    font-size: 40px;
+     position: relative;
+    left: 5%;
+    margin-top: 100px;
+}
+
+.Contact-Title2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Contact-t1 {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding-top: 97px;
+    position: relative;
+    top: 120px;
+
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 300px;
+    position: relative;
+    top: -50px;
+}
+
+
+.inputs {
+    padding-top: 80px;
+    margin-left: 560px;
+}
+
+.imgAbout {
+display: flex;
+justify-content: center;
+padding-top: 10px;
+position: relative;
+top: 80px;
+}
+
+/* .endAU {
+    padding: 5rem 0;
+    margin-top: 100px; */
+    /* display: flex;
+    align-items: center; */
+    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #5e666f 150%); */
+    /* display: flex;
+    justify-content: center; */
+    /* flex-direction: column;
+    position: relative;
+    bottom: -63px;
+    
+} */
+
+/* 
+#end44 {
+text-decoration: none;
+font-size: 2rem;
+color: #ffffff;
+cursor: pointer;
+/* position: relative;
+right: -400px;
+top: 1px; */
+
+
+/* } */
+
+/* .rightss {
+cursor: context-menu; */
+/* position: relative; */
+    /* position: relative;
+        left: -700px;
+        top: 80px;
+} */ 

@@ -1,0 +1,277 @@
+* {
+ font-family: "Gilroy",
+  Sans-serif;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+body {
+  background-color: #232427;
+}
+
+.navigation {
+font-size: 20px;
+background: #232427;
+align-items: top;
+z-index: 100;
+position: fixed; 
+top: 0;
+border-bottom-width: 0.01px;
+border-bottom-style: solid;
+border-bottom-color: white;
+left: 0px;
+right: 0px;
+}
+
+.cont {
+display: flex;
+ justify-content: space-between;  
+ padding-left: 10px;
+ padding-right: 10px; 
+}
+
+#titulo {
+ font-size: 60px;
+ background-image: linear-gradient(to top, #ffffff 0%, #ffffff 100%);
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;
+}
+
+.cover.up {
+  margin-top: -100vh
+}
+
+.main{
+list-style: none;
+display: flex; 
+}
+
+.third {
+color: rgb(255, 255, 255);
+display: flex;
+padding-top: 25px;
+padding-left: 20px;
+align-items: center;
+text-decoration: none;
+position: relative;
+right: 20px;
+}
+
+
+.buttons2 {
+  background: #75ABD1;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-bottom: 30px;
+  position:relative;
+  top: 25px; 
+ 
+  
+}
+
+
+.buttons2:hover {
+ transition: all 0.5s ease;
+ background: #1d6ea8;
+}
+
+.third:hover {
+ transition: all 0.5s ease;
+ color: #1d6ea8;
+ 
+}
+
+
+.main2 {
+ background-color: #232427;
+ margin-top: 100px;
+}
+
+.main3 {
+  padding-right: 100px;
+  padding-top: 50px;
+ display: grid;
+ max-width: 1300px;
+ background-color: #232427;
+ grid-template-columns: 600px 600px;
+ align-items: center; 
+}
+
+.main4 h1 {
+  font-size: 80px;
+  padding-bottom: 30px;
+ -webkit-text-fill-color: transparent;
+ background-image: linear-gradient(to top, #ffffff 0%, #ffffff 100%);
+ -webkit-background-clip: text;
+  cursor:context-menu;
+}
+
+ .main4 {
+   text-align: center;
+   margin-bottom: 80px;
+ }
+
+.main5 {
+ border: none;
+ border-radius: 20px;
+ margin-top: 0.1rem;
+ font-size: 2.5rem;
+ cursor: pointer;
+ position: relative;
+ background-image: linear-gradient(to top, #75ABD1 0%, #75ABD1 100%);
+ padding: 12px 20px;
+ color: #fff;
+ text-decoration: none;
+}
+
+.main51 {
+border: none;
+  border-radius: 20px;
+  margin-top: 0.1rem;
+  font-size: 2.5rem;
+  cursor: pointer;
+  position: relative;
+  background-image: linear-gradient(to top, #75ABD1 0%, #75ABD1 100%);
+  padding: 12px 20px;
+  color: #fff;
+  text-decoration: none;
+ 
+  top: 50px;
+  left: 10px;
+}
+
+
+#main7 {
+ width: 150%;
+ padding-left: 200px;
+}
+
+
+.this {
+margin-top: 100px;
+ align-items: center;
+ flex-direction: column;
+ background: #232427;
+ display: flex;
+}
+
+.this h2 {
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ background-image: linear-gradient(to right,#ffffff 30%, #ffffff 100%);
+ font-size: 3rem;
+ cursor:context-menu;
+}
+
+.this2 {
+ display: flex;
+}
+
+.this3 {
+ margin: 1rem;
+ height: 450px;
+ position: relative;
+ color: #fff;
+ width: 400px;
+ background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%,#5e666f 150%);
+}
+
+.this h3 {
+ left: 20px;
+ position: absolute;
+ top: 320px;
+}
+
+.this3 p {
+ left: 20px;
+ position: absolute;
+ top: 360px;
+}
+
+
+.this3 a {
+  text-decoration:none;
+  font-size: 1.1rem;
+    left: 20px;
+    background: #75AbD1;
+    position: absolute;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    top: 400px;
+}
+
+.this3:hover {
+ cursor: pointer;
+ transform: scale(1.1);
+ transition: 0.25s ease-in;
+}
+
+
+.end {
+ padding: 5rem 0;
+ margin-top: 100px;
+ display: flex;
+ align-items: center;
+background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #5e666f 150%);
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+position: relative;
+
+}
+
+#end4 {
+ text-decoration: none;
+ font-size: 2rem;
+ color: #ffffff;
+ cursor: pointer;
+ position: relative;
+ right: -400px;
+ top: 1px;
+}
+
+
+.end2 {
+ max-width: 1000px;
+ width: 100%;
+}
+
+.end3 {
+  margin: -10px auto 0 auto; 
+ display: flex;
+ justify-content: space-between;
+}
+
+.rights{
+    cursor: context-menu;
+    position: relative;
+    left: -350px;
+    top: 80px;
+}
+
+
+@media (max-width: 870px) {
+  .buttons2 {
+  position: fixed;
+    
+   left: 420px;
+   top: 12px;
+
+  }
+}
+
+@media (max-width: 835px) {
+  .third {
+    position: relative;
+    top: 50px;
+    right: 150px;
+    
+  }
+}
