@@ -1,4 +1,59 @@
-p{
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+.contUS {
+  width: 100%;
+  height: 100vh; 
+  background: #001660;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+form{
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+form h3{
+  color: #555;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+form input, form textarea{
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+}
+
+form button{
+  padding: 15px;
+  background: #ff5361;
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+}
+
+/* p{
   position: relative;
   top: 100px;
   font-size: 30px;
@@ -48,10 +103,10 @@ input[type=submit]:hover {
   padding-top: 200px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   /* position: relative;
   top: 50px; */
-} 
+/* } 
 
 .fname {
   color: white;
@@ -66,9 +121,9 @@ input[type=submit]:hover {
 }
 
 .rightsss {
-  cursor: context-menu;
+  cursor: context-menu; */
     /* position: relative; */
-    position: relative;
+    /* position: relative;
     left: -200px;
     top: 80px;
 }
@@ -77,26 +132,27 @@ input[type=submit]:hover {
 text-decoration: none;
   font-size: 2rem;
   color: #ffffff;
-  cursor: pointer;
+  cursor: pointer; */
   /* position: relative;
 right: -400px;
 top: 1px; */
-}
+/* }
 
 .endCU {
       padding: 5rem 0;
-    margin-top: 100px;
+    margin-top: 100px; */
     /* display: flex;
     align-items: center; */
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #5e666f 150%);
+    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #5e666f 150%); */
     /* display: flex;
     justify-content: center; */
-    flex-direction: column;
+    /* flex-direction: column;
     position: relative;
     bottom: -50px;
     
     
-}
+} */
+
 
 
 
