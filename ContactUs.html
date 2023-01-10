@@ -10,7 +10,6 @@
 </head>
 
 <body>
-  <!-- Navigation Bar -->
   <nav class="navigation">
     <div class="cont">
       <a href="index.html" id="titulo">TrainYourSkills
@@ -44,11 +43,19 @@
     </div>
   </nav>
 
-<p> Please Write your message here</p>
+<div class="contUS">
+  <form onsubmit="sendEmail(); reset(); return false;">
+    <h3>GET IN TOUCH</h3>
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Email id" required>
+    <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+    <button type="submit">Send</button>
+  </form>
+</div>
 
 
 
-<div class="contact-form" > 
+<!-- <div class="contact-form" > 
   <form id="contact-form" method="post", action="contact-form-handler.php">
     <label for="fname", class="fname">First Name</label>
     <input type="text" id="fname" name="name" class="form-control" placeholder="Your name.." required>
@@ -65,7 +72,7 @@
 
     <input type="submit" value="submit">
   </form>
-</div> 
+</div>  -->
 
   <!-- Footer section -->
   <!-- <div class="endCU">
@@ -79,9 +86,28 @@
     </div>
   </div>
   </div> -->
+<!-- 
+<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script> -->
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
-
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+  function sendEmail(){
+    Email.send({
+            Host: "smtp.elasticemail.com",
+            Username: "joancamos44@gmail.com",
+            Password: "519EAFC53ED7BC5F5A7055CAF652E22B87D2",
+            To: 'chivalrrik@gmail.com',
+            From: "joancamos44@gmail.com"
+           // document.getElementById("email").value
+            ,
+            Subject: "New Contact Form Enquiry",
+            Body: "User Email:" + " " +  document.getElementById("email").value + "<br/> Name:" + " " + document.getElementById("name").value + "<br/> User Message:" + " " +
+            document.getElementById("message").value
+          }).then(
+            message => alert(message)
+          );
+  }
+</script>
 </body>
 
 </html>
