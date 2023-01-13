@@ -1,81 +1,72 @@
-.Contact-Title {
-    color: #ffffff;
-    font-size: 40px;
-     position: relative;
-    left: 5%;
-    margin-top: 100px;
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Gilroy",
+            Sans-serif;
+    box-sizing: border-box;
 }
 
-.Contact-Title2 {
-    display: flex;
-    justify-content: center;
-    
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #232427;
 }
 
-.Contact-t1 {
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-    padding-top: 97px;
-    position: relative;
-    top: 120px;
-
+h1{
+color: white;
+    font-weight: 900;
 }
 
-input {
+.container{
+    width: 80%;
     display: block;
-    margin-bottom: 20px;
-    height: 30px;
-    width: 300px;
-    position: relative;
-    top: -50px;
+    margin: auto;
+    padding: 100px;
 }
 
-
-.inputs {
-    padding-top: 80px;
-    margin-left: 560px;
+.content-section{
+    float: left;
+    width: 55%;
 }
 
-.imgAbout {
-display: flex;
-justify-content: center;
-padding-top: 10px;
-position: relative;
-top: 80px;
+.image-section{
+    float: right;
+    width: 40%;
 }
 
-/* .endAU {
-    padding: 5rem 0;
-    margin-top: 100px; */
-    /* display: flex;
-    align-items: center; */
-    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #5e666f 150%); */
-    /* display: flex;
-    justify-content: center; */
-    /* flex-direction: column;
-    position: relative;
-    bottom: -63px;
-    
-} */
+.image-section img{
+    width: 500px;
+    height: auto;
+}
 
-/* 
-#end44 {
-text-decoration: none;
-font-size: 2rem;
-color: #ffffff;
-cursor: pointer;
-/* position: relative;
-right: -400px;
-top: 1px; */
+.contnet-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
 
+.content-section .content h3{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 21px;
+}
 
-/* } */
+.content-section .content p{
+    margin-top: 10px;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #fff;
+}
 
-/* .rightss {
-cursor: context-menu; */
-/* position: relative; */
-    /* position: relative;
-        left: -700px;
-        top: 80px;
-} */ 
+.content-section .social{
+    margin-top: 40px;
+}
+
+.content-section .social i{
+    color:#75ABD1;
+    font-size: 30px;
+    padding:0px 10px;
+}
+
+.content-section .social i:hover{
+    color:#1d6ea8;
+}
