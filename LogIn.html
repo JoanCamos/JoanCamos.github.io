@@ -1,0 +1,110 @@
+<?php
+ session_start();
+?>
+<!-- CONTACT US ONLY IF LOGGED IN? -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrainYourSkills</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="LogIn.css">
+  <script src="https://kit.fontawesome.com/414064d4f7.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <nav class="navigation">
+    <div class="cont">
+      <a href="index.html" id="titulo">TrainYourSkills
+
+        <ol class="main">
+          <li class="second">
+            <a href="index.html" class="third">
+              Home
+            </a>
+          </li>
+
+          <li class="second">
+            <a href="AboutUs.html" class="third">
+              About Us
+            </a>
+          </li>
+
+          <li class="second">
+            <a href="ContactUs.html" class="third">
+              Contact Us
+            </a>
+          </li>
+
+          <li class="buttons">
+            <a href="SingUp.html" class="third">
+              Sign Up
+            </a>
+          </li>
+
+          <li class="buttons">
+            <a href="LogIn.html" class="third">
+                Log In
+            </a>
+          </li> </ol>
+          </div>
+          </nav>
+
+
+  <div class="contLogin">
+    <div class="form-boxL">
+      <h1 id="titleL">Login</h1>
+      <form action="includes/login.inc.php" method="post">
+        <div class="input-groupL">
+          <div class="input-fieldL">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" name="email" placeholder="Email">
+          </div>
+
+          <div class="input-fieldL">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" name="pwd" placeholder="Password">
+          </div>
+
+        </div>
+        <div class="btn-fieldL">
+          <button type="submit" name="submit" >Login</button>
+          <!-- id = login??? -->
+          <!-- <button type="button" class="disable" id="signinBtn">Sign in</button> -->
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+
+// let signupBtn = document.getElementById("signupBtn") 
+// let signinBtn = document.getElementById("signinBtn") 
+// let nameField = document.getElementById("nameField") 
+// let title = document.getElementById("title") 
+
+
+// signinBtn.onclick = function(){
+//   nameField.style.maxHeight = "0";
+//   title.innerHTML = "Sign In";
+//   signupBtn.classList.add("disable");
+//   signinBtn.classList.remove("disable");
+
+// }
+
+//   signupBtn.onclick = function () {
+//     nameField.style.maxHeight = "60px";
+//     title.innerHTML = "Sign Up";
+//     signupBtn.classList.remove("disable");
+//     signinBtn.classList.add("disable");
+
+//   }
+
+  </script>
+</body>
+
+</html>
