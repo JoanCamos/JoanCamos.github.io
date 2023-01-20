@@ -35,10 +35,16 @@
             </li>
     
             <li class="buttons">
-              <a href="" class="buttons2">
+              <a href="SingUp.html" class="third">
                 Sign Up
               </a>
             </li>
+
+          <li class="buttons">
+            <a href="LogIn.html" class="third">
+              Log In
+            </a>
+          </li>
     
           </ol>
       </div>
@@ -46,56 +52,64 @@
 <div class="contSingUp">
   <div class="form-box">
     <h1 id="title">Sign Up</h1>
-    <form>
+    <form action="includes/signup.inc.php" method="post">
       <div class="input-group">
         <div class="input-field" id="nameField">
           <i class="fa-solid fa-user"></i>
-          <input type="text" placeholder="Name">
+          <input type="text" name="name" placeholder="Name">
         </div>
 
         <div class="input-field">
           <i class="fa-solid fa-envelope"></i>
-          <input type="email" placeholder="Email">
+          <input type="email" name="email" placeholder="Email">
         </div>
 
         <div class="input-field">
           <i class="fa-solid fa-lock"></i>
-          <input type="password" placeholder="Password">
+          <input type="password" name="pwd" placeholder="Password">
+        </div>
+
+        <div class="input-field">
+          <i class="fa-solid fa-lock"></i>
+          <input type="password" name="pwdrepeat" placeholder="Repeat Password">
         </div>
         <p>Lost password <a href="#">Click Here!</a></p>
       </div>
       <div class="btn-field">
-        <button type="button" id="signupBtn">Sign up</button>
-        <button type="button" class="disable" id="signinBtn">Sign in</button>
+        <button type="submit" name="submit" id="signupBtn">Sign up</button>
+        <!-- <button type="button" class="disable" id="signinBtn">Sign in</button> -->
       </div>
     </form>
   </div>
 </div>
 
+
+
 <script>
+// let signupBtn = document.getElementById("signupBtn") 
+// let signinBtn = document.getElementById("signinBtn") 
+// let nameField = document.getElementById("nameField") 
+// let title = document.getElementById("title") 
 
-let signupBtn = document.getElementById("signupBtn") 
-let signinBtn = document.getElementById("signinBtn") 
-let nameField = document.getElementById("nameField") 
-let title = document.getElementById("title") 
 
+// signinBtn.onclick = function(){
+//   nameField.style.maxHeight = "0";
+//   title.innerHTML = "Sign In";
+//   signupBtn.classList.add("disable");
+//   signinBtn.classList.remove("disable");
 
-signinBtn.onclick = function(){
-  nameField.style.maxHeight = "0";
-  title.innerHTML = "Sign In";
-  signupBtn.classList.add("disable");
-  signinBtn.classList.remove("disable");
+// }
 
-}
+//   signupBtn.onclick = function () {
+//     nameField.style.maxHeight = "60px";
+//     title.innerHTML = "Sign Up";
+//     signupBtn.classList.remove("disable");
+//     signinBtn.classList.add("disable");
 
-  signupBtn.onclick = function () {
-    nameField.style.maxHeight = "60px";
-    title.innerHTML = "Sign Up";
-    signupBtn.classList.remove("disable");
-    signinBtn.classList.add("disable");
-
-  }
-
+//   }
 </script>
+
+
 </body>
 </html>
+
